@@ -1,2 +1,3 @@
-# Hospital-API
-Hospital API manages COVID data with MongoDB, JWT-auth, essential endpoints, local setup.
+# Hospital API Server
+
+This Node.js project serves as an API for a hospital managing COVID-19 patient data. Using MongoDB, it facilitates doctor-patient interactions, including patient registration, report creation, and status updates. Authentication via JWT secures sensitive endpoints. The folder structure is organized into controllers, models, routes, middlewares, and utilities. Essential endpoints include doctor registration/login, patient registration, report creation, and status-specific report retrieval. Developers can clone the repository, install dependencies, set up environment variables, and run the server locally.
