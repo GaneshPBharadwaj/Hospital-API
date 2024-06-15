@@ -20,7 +20,7 @@ patientRouter.post('/:id/create_report', jwtAuth, (req, res, next)=>{
     reportController.createReport(req, res, next)
 });
 
-patientRouter.get('/:id/all_report', (req, res, next)=>{
+patientRouter.get('/:id/all_reports', (req, res, next)=>{
     reportController.allReport(req, res, next)
 })
 
